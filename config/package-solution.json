@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mr-reservation-client-side-solution",
+    "id": "c3c0da00-f173-4a8f-a11b-aefca0e1a120",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "mr-reservation description"
+      },
+      "longDescription": {
+        "default": "mr-reservation description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mr-reservation Feature",
+        "description": "The feature that activates elements of the mr-reservation solution.",
+        "id": "818f1f84-a976-42b2-aaea-c32a2f69dac2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mr-reservation.sppkg"
+  }
+}

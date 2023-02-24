@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mr-reservation-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mrReservationWebpart/MrReservationWebpartWebPart.js",
+          "manifest": "./src/webparts/mrReservationWebpart/MrReservationWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MrReservationWebpartWebPartStrings": "lib/webparts/mrReservationWebpart/loc/{locale}.js"
+  }
+}
